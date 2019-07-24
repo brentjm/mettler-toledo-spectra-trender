@@ -1,0 +1,19 @@
+{
+    "name": "Mettler Toledo Spectrometer Trender",
+    "version": "1.0.0",
+    "description": "A Node-RED node to plot any trends for Mettler Toledo spectrometers",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Brent J. Maranzano",
+    "license": "ISC",
+    "node-red": {
+        "nodes": {
+            "mt": "metter-toledo.js"
+        }
+    },
+    "dependencies": {
+        "node-opcua": "^2.1.0"
+    }
+}
